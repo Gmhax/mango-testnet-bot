@@ -48,6 +48,7 @@
    nano accounts/accounts.js
    ```
 Format: export const accountList = ["seed phrase ng Mango"];
+
 4. Configure the bot config
    ```
    nano config/config.js
