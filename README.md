@@ -51,11 +51,12 @@
    ```
    nano config/config.js
    ```
+## OPTIONAL
 5. Configure the proxy
     ```
    nano config/proxy_list.js
     ```
-## OPTIONAL
+
 
 6. Create session
     ```
