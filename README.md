@@ -51,40 +51,23 @@
    ```
    nano config/config.js
    ```
-6. Configure the proxy
+5. Configure the proxy
     ```
    nano config/proxy_list.js
     ```
+## OPTIONAL
+
+6. Create session
+    ```
+   screen -S mango
+    ```
+
 7. To run Auto TX
    ```
    npm run start
    ```
    
-### WINDOWS
-
-1. Open your `Command Prompt` or `Power Shell`.
-2. Clone project repository
-   ```
-   git clone https://github.com/Rambeboy/mango-testnet-bot.git
-   ```
-   and cd to project dir
-   ```
-   cd mango-testnet-bot
-   ```
-3. Install Dependencies and Setup Accounts 
-   ```
-   npm install && npm run setup
-   ```
-5. Navigate to `mango-testnet-bot` directory. 
-6. Navigate to `accounts` directory.
-7. Now open `acccounts.js` and setup your accounts. 
-8. Now Back to `mango-testnet-bot` directory and Navigate to `config` directory and adjust the `config.js` and `proxy_list.js` as needed.
-9.  Back to `mango-testnet-bot` directory.
-10. To start the app open your `Command Prompt` or `Power Shell`
-11. To run auto Tx Bot
-    ```
-    npm run start
-    ```
+## Detach session: Press CTRL A+D
 
 ### HOW TO GET BRIDGE RAW DATA
 
